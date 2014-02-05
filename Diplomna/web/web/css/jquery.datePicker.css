@@ -1,0 +1,45 @@
+table.jCalendar { border:0 solid #000; background:#EEE; border-collapse:separate; border-spacing:2px; font:10px Verdana,Tahoma,sans-serif; }
+table.jCalendar th { background:#555; color:#EEE; font-weight:bold; padding:2px 4px; }
+table.jCalendar td { background:#FFF; color:#000; padding:2px 4px; text-align:center; }
+table.jCalendar td.weekend { color:#F00; }
+table.jCalendar td.other-month { background: #bbb; color: #666; }
+table.jCalendar td.today { border: 1px solid #555; }
+table.jCalendar td.selected { background:#f66; color:#fff; }
+table.jCalendar td.selected:hover { background:#f33; color:#fff; }
+table.jCalendar td:hover, table.jCalendar td.dp-hover { background:#ff6; color:#000; }
+table.jCalendar td.disabled, table.jCalendar td.disabled:hover { background: #bbb; color: #888; }
+
+/* For the popup */
+div.dp-popup { position:relative; background:#ccc; font:11px Arial,sans-serif; padding:2px;  line-height:1.2em; border: 1px solid #000; z-index:2000; }
+div#dp-popup { position:absolute; z-index:2001; }
+div.dp-popup h2 { font:bold 11px Arial,Verdana,Tahoma,sans-serif; text-transform:capitalize; text-align:center; margin:2px 0; padding:0 0 2px 0; }
+a#dp-close { font-size: 11px; padding: 4px 0; text-align: center; display: block; }
+a#dp-close:hover { text-decoration: underline; }
+div.dp-popup a { color: #000; text-decoration: none; padding: 3px 2px 0; }
+div.dp-popup div.dp-nav-prev,
+div.dp-popup div.dp-nav-next { position:absolute; top:2px; width:100px; font:bold 8px Verdana,sans-serif; } 
+div.dp-popup div.dp-nav-prev { left:4px; }
+div.dp-popup div.dp-nav-prev a { float:left; }
+/* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
+div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a { cursor: pointer; }
+div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled { cursor: default; }
+div.dp-popup div.dp-nav-next { right:4px; }
+div.dp-popup div.dp-nav-next a { float:right; }
+div.dp-popup a.disabled { cursor: default; color: #aaa; }
+div.dp-popup td { cursor: pointer; }
+div.dp-popup td.disabled { cursor: default; }
+/*width: 171px;*/
+
+a.dp-choose-date {
+    background:url(buttons/calendar.png) no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 3px 0;
+    display: block;
+    text-indent: -2000px;
+    overflow: hidden;
+}
+a.dp-choose-date.dp-disabled { background-position: 0 -20px; cursor: default; }
+input.dp-applied { width:100px!important; float:left; }

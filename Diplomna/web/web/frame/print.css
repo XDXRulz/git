@@ -1,0 +1,24 @@
+.noprint {
+    display: none;
+}
+p.title {
+    padding: 0px 0px 4px 35px;
+    font-size: 16pt;
+}
+.gradient {
+    background-color: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: none;
+    -ms-filter: none;
+    box-sizing: none;
+    -moz-box-sizing: none;
+}
+.glow {
+    filter: none;
+    text-shadow: none;
+}

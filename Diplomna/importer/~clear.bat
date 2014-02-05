@@ -1,0 +1,1 @@
+@del /f /s *.dcu *.~* *.ddp *.cdb *.pdb *.scc

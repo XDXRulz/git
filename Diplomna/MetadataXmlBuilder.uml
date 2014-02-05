@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bg.infologica.water.orm.MetadataXmlBuilder</OriginalElement>
+  <nodes>
+    <node x="507.0218253968253" y="321.0">bg.infologica.water.orm.MetadataKeyword</node>
+    <node x="697.7718253968253" y="922.5">bg.infologica.water.orm.MetadataDistributionInfo</node>
+    <node x="0.0" y="892.0">bg.infologica.water.orm.MetadataDataQualityInfo</node>
+    <node x="854.0218253968253" y="341.0">bg.infologica.water.orm.MetadataOrm.MetadataCategories</node>
+    <node x="1211.0218253968253" y="331.0">bg.infologica.water.orm.MetadataCitation</node>
+    <node x="2986.521825396825" y="40.5">bg.infologica.water.orm.MetadataTemporal</node>
+    <node x="870.5218253968253" y="1303.0">bg.infologica.water.orm.MetadataXmlBuilder</node>
+    <node x="3514.001984126984" y="40.5">bg.infologica.water.orm.MetadataOrm.MetadataRoles</node>
+    <node x="1885.251984126984" y="0.0">bg.infologica.water.orm.MetadataOrm.MetadataConstraints</node>
+    <node x="3254.8888888888887" y="371.0">bg.infologica.water.orm.MetadataResponsibleParty</node>
+    <node x="2777.021825396825" y="431.5">bg.infologica.water.orm.MetadataExtent</node>
+    <node x="53.5" y="341.0">bg.infologica.water.orm.MetadataConformity</node>
+    <node x="2042.0218253968253" y="411.5">bg.infologica.water.orm.MetadataLegalConstraint</node>
+    <node x="242.46693121693124" y="40.5">bg.infologica.water.orm.MetadataOrm.MetadataDateType</node>
+    <node x="2633.521825396825" y="0.0">bg.infologica.water.orm.MetadataGeografic</node>
+    <node x="1182.0218253968253" y="762.0">bg.infologica.water.orm.MetadataIdentificationInfo</node>
+    <node x="1284.0218253968253" y="30.5">bg.infologica.water.orm.MetadataIdentifier</node>
+    <node x="1706.0218253968253" y="411.5">bg.infologica.water.orm.MetadataUseLimitation</node>
+    <node x="3695.8888888888887" y="371.0">bg.infologica.water.orm.MetadataContact</node>
+    <node x="2390.021825396825" y="401.5">bg.infologica.water.orm.MetadataSpatialResolution</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bg.infologica.water.orm.MetadataResponsibleParty" target="bg.infologica.water.orm.MetadataOrm.MetadataRoles">
+      <point x="-105.25" y="-135.5" />
+      <point x="3360.1388888888887" y="301.0" />
+      <point x="3541.501984126984" y="301.0" />
+      <point x="-82.5" y="95.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataSpatialResolution">
+      <point x="303.1111111111113" y="-245.5" />
+      <point x="2167.1329365079364" y="722.0" />
+      <point x="2573.521825396825" y="722.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataResponsibleParty">
+      <point x="606.2222222222222" y="-245.5" />
+      <point x="2470.2440476190477" y="742.0" />
+      <point x="3465.3888888888887" y="742.0" />
+      <point x="0.0" y="135.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataXmlBuilder" target="bg.infologica.water.orm.MetadataDistributionInfo">
+      <point x="-105.875" y="-225.5" />
+      <point x="1188.1468253968253" y="1273.0" />
+      <point x="861.2718253968253" y="1273.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataXmlBuilder" target="bg.infologica.water.orm.MetadataContact">
+      <point x="317.625" y="-225.5" />
+      <point x="1611.6468253968253" y="1283.0" />
+      <point x="3883.8888888888887" y="1283.0" />
+      <point x="0.0" y="135.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataOrm.MetadataCategories">
+      <point x="-454.6666666666665" y="-245.5" />
+      <point x="1409.3551587301588" y="732.0" />
+      <point x="1106.7718253968253" y="732.0" />
+      <point x="84.25" y="165.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataExtent" target="bg.infologica.water.orm.MetadataTemporal">
+      <point x="99.25" y="-75.0" />
+      <point x="3074.771825396825" y="301.0" />
+      <point x="3151.021825396825" y="301.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataKeyword">
+      <point x="-606.2222222222222" y="-245.5" />
+      <point x="1257.7996031746031" y="742.0" />
+      <point x="670.5218253968253" y="742.0" />
+      <point x="0.0" y="185.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataXmlBuilder" target="bg.infologica.water.orm.MetadataDataQualityInfo">
+      <point x="-317.625" y="-225.5" />
+      <point x="976.3968253968253" y="1283.0" />
+      <point x="222.5" y="1283.0" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataConformity" target="bg.infologica.water.orm.MetadataOrm.MetadataDateType">
+      <point x="84.5" y="-165.5" />
+      <point x="307.0" y="301.0" />
+      <point x="332.84193121693124" y="301.0" />
+      <point x="-30.125" y="95.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataContact" target="bg.infologica.water.orm.MetadataOrm.MetadataRoles">
+      <point x="-94.0" y="-135.5" />
+      <point x="3789.8888888888887" y="301.0" />
+      <point x="3651.501984126984" y="301.0" />
+      <point x="27.5" y="95.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataExtent" target="bg.infologica.water.orm.MetadataGeografic">
+      <point x="-99.25" y="-75.0" />
+      <point x="2876.271825396825" y="301.0" />
+      <point x="2800.021825396825" y="301.0" />
+      <point x="0.0" y="135.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataCitation" target="bg.infologica.water.orm.MetadataIdentifier">
+      <point x="0.0" y="-175.5" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataUseLimitation" target="bg.infologica.water.orm.MetadataOrm.MetadataConstraints">
+      <point x="79.0" y="-95.0" />
+      <point x="1943.0218253968253" y="301.0" />
+      <point x="1995.126984126984" y="301.0" />
+      <point x="-36.625" y="135.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataUseLimitation">
+      <point x="0.0" y="-245.5" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataXmlBuilder" target="bg.infologica.water.orm.MetadataIdentificationInfo">
+      <point x="105.875" y="-225.5" />
+      <point x="1399.8968253968253" y="1273.0" />
+      <point x="1864.0218253968253" y="1273.0" />
+      <point x="0.0" y="245.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataCitation">
+      <point x="-151.55555555555566" y="-245.5" />
+      <point x="1712.4662698412696" y="712.0" />
+      <point x="1448.5218253968253" y="712.0" />
+      <point x="0.0" y="175.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataExtent">
+      <point x="454.6666666666665" y="-245.5" />
+      <point x="2318.688492063492" y="732.0" />
+      <point x="2975.521825396825" y="732.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataDataQualityInfo" target="bg.infologica.water.orm.MetadataConformity">
+      <point x="0.0" y="-115.5" />
+      <point x="0.0" y="165.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataKeyword" target="bg.infologica.water.orm.MetadataOrm.MetadataDateType">
+      <point x="81.75" y="-185.5" />
+      <point x="752.2718253968253" y="291.0" />
+      <point x="453.34193121693124" y="291.0" />
+      <point x="90.375" y="95.0" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataLegalConstraint" target="bg.infologica.water.orm.MetadataOrm.MetadataConstraints">
+      <point x="-82.0" y="-95.0" />
+      <point x="2124.021825396825" y="301.0" />
+      <point x="2068.376984126984" y="301.0" />
+      <point x="36.625" y="135.5" />
+    </edge>
+    <edge source="bg.infologica.water.orm.MetadataIdentificationInfo" target="bg.infologica.water.orm.MetadataLegalConstraint">
+      <point x="151.55555555555566" y="-245.5" />
+      <point x="2015.577380952381" y="712.0" />
+      <point x="2206.021825396825" y="712.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.39882697947214074" x="2036.0" y="877.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

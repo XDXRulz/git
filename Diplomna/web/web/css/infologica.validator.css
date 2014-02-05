@@ -1,0 +1,2 @@
+.validator-error-message { background: #f00; border: 1px solid #900; color: #fff; padding: 2px 5px; }
+.validator-error-field { border: 1px solid #f00 !important; }
