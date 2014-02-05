@@ -60,7 +60,7 @@ public class OrderItemsDao {
         }
         return orders;
     }
-    public static boolean Save(OrderItemsOrm item)
+    public static boolean Save(OrderItemsOrm item,int orderId)
     {
         Database db = null;
         PreparedStatement stmt = null;
@@ -77,7 +77,7 @@ public class OrderItemsDao {
             else
             {
                 stmt = db.prepareStatement(SQL.ADD_ORDER_ITEM);
-                stmt.setInt(1,item.getOrderId());
+                stmt.setInt(1,orderId);
                 stmt.setInt(2,item.getItem().getItemId());
                 stmt.setDouble(3,item.getQuantity());
                 stmt.setString(4,item.getRemark());

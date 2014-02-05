@@ -24,6 +24,8 @@
 <table class="list hover">
     <thead>
     <tr>
+        <th>Категория</th>
+        <th>Тип продукт</th>
         <th>Наименование</th>
         <% if (admin) { %>
         <th class="icon"></th>
@@ -41,6 +43,8 @@
     <tbody>
     <% for(Item item : items) { %>
     <tr class="top">
+        <td><%= Tools.fix(item.getItemType().getCategory().getCategoryName()) %></td>
+        <td><%= Tools.fix(item.getItemType().getTypeName()) %></td>
         <td><%= Tools.fix(item.getItemName()) %></td>
         <% if (admin) { %>
         <td class="icon"><%= HtmlLink.getIconPopup("popup/item.jsp?action=edit&id=" + item.getItemId(), "edit", "Корекция") %></td>

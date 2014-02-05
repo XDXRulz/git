@@ -38,36 +38,36 @@
         db = new Database();
         categories = db.select(SQL.LOAD_CATEGORIES);
 
-    int id = get.getInt("id");
-    String action= get.getString("action");
-    ItemType itemType = null;
-    if("delete".equals(action)){
-        ItemTypeDao.Delete(id);
-        out.println(JavaScript.documentReload());
-        return;
-    }
-    if("save".equals(action))
-    {
-        itemType = new ItemType(get.getInt("id"),get.getString("type_name"),new Category(get.getInt("category_id")));
-        if (Tools.emptyString(itemType.getTypeName())) {
-            SessionMessages.error(session, "Задължително трябва да се въведе наименование.");
-        }
-        if (!SessionMessages.exists(session)) {
-            if (ItemTypeDao.Save(itemType)) {
-                SessionMessages.success(session, "Успешнно добавяне/редакция на тип на артикули.");
-            } else {
-                SessionMessages.error(session, "Грешка при запис на тип на артикули.");
-            }
+        int id = get.getInt("id");
+        String action= get.getString("action");
+        ItemType itemType = null;
+        if("delete".equals(action)){
+            ItemTypeDao.Delete(id);
             out.println(JavaScript.documentReload());
             return;
         }
-        else{SessionMessages.error(session, BarCommons.ERROR_SAVE);}
-    }
-    else
-    {
-        if("edit".equals(action))
+        if("save".equals(action))
         {
-            itemType =  ItemTypeDao.Load(id);
+            itemType = new ItemType(get.getInt("id"),get.getString("type_name"),new Category(get.getInt("category_id")));
+            if (Tools.emptyString(itemType.getTypeName())) {
+                SessionMessages.error(session, "Задължително трябва да се въведе наименование.");
+            }
+            if (!SessionMessages.exists(session)) {
+                if (ItemTypeDao.Save(itemType)) {
+                    SessionMessages.success(session, "Успешнно добавяне/редакция на тип на артикули.");
+                } else {
+                    SessionMessages.error(session, "Грешка при запис на тип на артикули.");
+                }
+                out.println(JavaScript.documentReload());
+                return;
+            }
+            else{SessionMessages.error(session, BarCommons.ERROR_SAVE);}
+        }
+        else
+        {
+            if("edit".equals(action))
+            {
+                itemType =new ItemType(db, get.getInt("id"));  //ItemTypeDao.Load(id);
 %>
 <%= Popup.header(response, "Редакция на тип на артикули") %>
 <%}else{%><%= Popup.header(response, "Добавяне на тип на артикули") %><%}%>
@@ -76,7 +76,7 @@
     <%= Html.hidden("action", "save") %>
     <%= Html.hidden("id", id) %>
     <fieldset>
-                <label>Наименование:</label>
+        <label>Наименование:</label>
         <%= Html.inputText("type_name", (itemType!=null)?itemType.getTypeName():"") %>
 
         <label>Категория:</label>

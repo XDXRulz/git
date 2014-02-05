@@ -83,7 +83,7 @@ public final class UserOrm {
             int name_min = 5;
             if (name_min > 0 && login_name.length() < name_min)
                 SessionMessages.error(session, "Потребителското име е твърде късо - трябва да съдържа поне " + name_min + " символа.");
-            if (db.fetchInt("select count(*) from users where login_name=" +
+            if (db.fetchInt("select count(*) from users where user_name=" +
                     Tools.singleQuote(login_name) + " and user_id<>" + user_id) > 0) {
                 SessionMessages.error(session, "Потребителското име вече се използва в системата.");
             }

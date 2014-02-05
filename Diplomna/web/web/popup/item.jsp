@@ -33,16 +33,21 @@
         out.println(JavaScript.documentReload());
         return;
     }
-
+    Item item=null;
     ResultSet itemtypes = null;
     Database db = null;
     try {
         db = new Database();
+        if (get.getInt("capture") > 0) {
+            item = new Item(get);
+
+            item = new Item(db, get.getInt("id"));
+        }
         itemtypes = db.select(SQL.LOAD_ITEMTYPES);
 
         int id = get.getInt("id");
         String action= get.getString("action");
-        Item item = null;
+        // Item item = null;
         if("delete".equals(action)){
             ItemDao.Delete(id);
             out.println(JavaScript.documentReload());
@@ -69,7 +74,8 @@
         {
             if("edit".equals(action))
             {
-                item =  ItemDao.Load(id);
+                item  = new Item(db, get.getInt("id"));
+                //ItemDao.Load(id);
 %>
 <%= Popup.header(response, "Редакция на артикули") %>
 <%}else{%><%= Popup.header(response, "Добавяне на артикули") %><%}%>
@@ -83,7 +89,7 @@
         <label>Цена:</label>
         <%= Html.inputText("price", (item != null) ? Tools.fixFloat(item.getPrice(), 8,2): "") %>
 
-        <label>Категория:</label>
+        <label>Тип артикул:</label>
         <%= Html.select("type_id", (item != null && item.getItemType() != null) ? item.getItemType().getTypeId() : 0, itemtypes) %>
 
         <br/>
