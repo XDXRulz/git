@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="4bec0a40-edd3-41a4-b6bf-892531324914" name="Default" comment="" />
+    <list default="true" readonly="true" id="4bec0a40-edd3-41a4-b6bf-892531324914" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,7 +78,7 @@
       <file leaf-file-name="PostgreSQL.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/PostgreSQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="20" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="16405">
+            <state line="47" column="20" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="16643">
               <folding />
             </state>
           </provider>
@@ -84,7 +87,7 @@
       <file leaf-file-name="BarCommons.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/BarCommons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="58" selection-start="4383" selection-end="4417" vertical-scroll-proportion="0.0" vertical-offset="1687" max-vertical-offset="2278">
+            <state line="125" column="58" selection-start="4383" selection-end="4417" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2312">
               <folding />
             </state>
           </provider>
@@ -93,7 +96,7 @@
       <file leaf-file-name="OrderStatuses.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/OrderStatuses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="28" selection-start="100" selection-end="100" vertical-scroll-proportion="0.21518987" vertical-offset="0" max-vertical-offset="527">
+            <state line="11" column="35" selection-start="357" selection-end="357" vertical-scroll-proportion="0.48320413" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -105,6 +108,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="git" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -219,7 +230,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -256,16 +267,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -350,6 +351,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +368,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
@@ -371,7 +382,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/cmd/git.exe" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
@@ -603,6 +614,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -621,10 +636,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
@@ -675,12 +686,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -698,6 +703,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -892,6 +903,7 @@
       <workItem from="1391612718309" duration="1014000" />
       <workItem from="1391613868279" duration="4084000" />
       <workItem from="1391619108237" duration="3514000" />
+      <workItem from="1391623102963" duration="2314000" />
     </task>
     <task id="LOCAL-00001">
       <created>1371460532100</created>
@@ -1109,7 +1121,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35072000" />
+    <option name="totallyTimeSpent" value="37386000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1133,11 +1145,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26904377" sideWeight="0.9988235" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1147,10 +1158,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47479674" sideWeight="0.99913716" order="3" side_tool="false" content_ui="tabs" x="24" y="290" width="1632" height="430" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31544715" sideWeight="0.16163142" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32101616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31544715" sideWeight="0.8383686" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3125" sideWeight="0.23787528" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2905028" sideWeight="0.21294117" order="1" side_tool="true" content_ui="tabs" />
@@ -1160,21 +1170,23 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23489426" sideWeight="0.3651877" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42439026" sideWeight="0.9756368" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26904377" sideWeight="0.9988235" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3927696" sideWeight="0.53579676" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19186991" sideWeight="0.49651742" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31544715" sideWeight="0.8383686" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995381" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23867069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28327644" sideWeight="0.09620098" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941905" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32101616" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1196,8 +1208,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31707317" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3125" sideWeight="0.23787528" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2905028" sideWeight="0.21294117" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940447" sideWeight="0.6910891" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995381" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1267,23 +1279,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/web/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="33" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1700">
-          <folding />
-        </state>
+        <state line="83" column="33" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/popup/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1309">
-          <folding />
-        </state>
+        <state line="26" column="24" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/SQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/Database.java">
@@ -1360,9 +1366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/SessionMessages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="17" column="19" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/home.jsp">
@@ -1372,9 +1376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="7" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1139">
-          <folding />
-        </state>
+        <state line="43" column="7" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1139" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
@@ -1396,16 +1398,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="48" selection-start="4883" selection-end="4883" vertical-scroll-proportion="0.0" vertical-offset="2452" max-vertical-offset="3315">
-          <folding />
-        </state>
+        <state line="158" column="48" selection-start="4883" selection-end="4883" vertical-scroll-proportion="0.0" vertical-offset="2452" max-vertical-offset="3315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/xmod_header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="2032" selection-end="2032" vertical-scroll-proportion="-6.5384617" vertical-offset="442" max-vertical-offset="1054">
-          <folding />
-        </state>
+        <state line="36" column="29" selection-start="2032" selection-end="2032" vertical-scroll-proportion="-6.5384617" vertical-offset="442" max-vertical-offset="1054" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/xmod_footer.jsp">
@@ -1420,9 +1418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/popup/password.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="36" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="43" column="36" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib1/InfologicaCommon.jar!/bg/infologica/design/HeaderTabs.class">
@@ -1466,58 +1462,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/UsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="82" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.0" vertical-offset="1914" max-vertical-offset="2516">
-          <folding />
-        </state>
+        <state line="126" column="82" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.0" vertical-offset="1914" max-vertical-offset="2516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/categories.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="19" selection-start="1066" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="32" column="19" selection-start="1066" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/popup/category.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="37" column="30" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/SQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="27" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0" vertical-offset="1166" max-vertical-offset="1734">
-          <folding />
-        </state>
+        <state line="57" column="27" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0" vertical-offset="1166" max-vertical-offset="1734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/popup/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1309">
-          <folding />
-        </state>
+        <state line="26" column="24" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/modules/delete_user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="33" selection-start="3128" selection-end="3128" vertical-scroll-proportion="-11.423077" vertical-offset="1114" max-vertical-offset="1700">
-          <folding />
-        </state>
+        <state line="83" column="33" selection-start="3128" selection-end="3128" vertical-scroll-proportion="-11.423077" vertical-offset="1114" max-vertical-offset="1700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
@@ -1527,9 +1507,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/Header.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="60" selection-start="5067" selection-end="5067" vertical-scroll-proportion="0.2510917" vertical-offset="1959" max-vertical-offset="2958">
-          <folding />
-        </state>
+        <state line="127" column="60" selection-start="5067" selection-end="5067" vertical-scroll-proportion="0.2510917" vertical-offset="1959" max-vertical-offset="2958" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/3d7e0598/c95c96e1-28c0-4af6-9d51-46c7f20cfe12/">
@@ -1541,9 +1519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="47" selection-start="573" selection-end="573" vertical-scroll-proportion="0.14382403" vertical-offset="306" max-vertical-offset="969">
-          <folding />
-        </state>
+        <state line="23" column="47" selection-start="573" selection-end="573" vertical-scroll-proportion="0.14382403" vertical-offset="306" max-vertical-offset="969" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/PostgreSQL.java">
@@ -1555,9 +1531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.31641287" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.31641287" vertical-offset="0" max-vertical-offset="591" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/BarCommons.java">
@@ -1569,7 +1543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/OrderStatuses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="100" selection-end="100" vertical-scroll-proportion="0.21518987" vertical-offset="0" max-vertical-offset="527">
+        <state line="11" column="35" selection-start="357" selection-end="357" vertical-scroll-proportion="0.48320413" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
