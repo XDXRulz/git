@@ -1,8 +1,8 @@
 <%@ page import="bg.infologica.common.SmartMap" %>
 <%@ page import="bg.infologica.common.web.Html" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
-<%@ page import="bg.infologica.water.core.Settings" %>
-<%@ page import="bg.infologica.water.core.User" %>
+<%@ page import="bg.infologica.project.core.Settings" %>
+<%@ page import="bg.infologica.project.core.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%    try{
     SmartMap get;

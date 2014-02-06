@@ -4,18 +4,18 @@
 <%@ page import="bg.infologica.common.web.Html" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
 <%@ page import="bg.infologica.common.web.Popup" %>
-<%@ page import="bg.infologica.water.core.*" %>
+<%@ page import="bg.infologica.project.core.*" %>
 <%@ page import="java.sql.ResultSet" %>
-<%@ page import="bg.infologica.water.core.SessionMessages" %>
-<%@ page import="bg.infologica.water.core.User" %>
-<%@ page import="bg.infologica.water.core.BarCommons" %>
-<%@ page import="bg.infologica.water.core.UserRole" %>
-<%@ page import="bg.infologica.water.dao.ItemTypeDao" %>
-<%@ page import="bg.infologica.water.dao.ItemDao" %>
-<%@ page import="bg.infologica.water.utils.StringUtils" %>
-<%@ page import="bg.infologica.water.dao.OrderItemsDao" %>
-<%@ page import="bg.infologica.water.dao.OrderDao" %>
-<%@ page import="bg.infologica.water.orm.*" %>
+<%@ page import="bg.infologica.project.core.SessionMessages" %>
+<%@ page import="bg.infologica.project.core.User" %>
+<%@ page import="bg.infologica.project.core.BarCommons" %>
+<%@ page import="bg.infologica.project.core.UserRole" %>
+<%@ page import="bg.infologica.project.dao.ItemTypeDao" %>
+<%@ page import="bg.infologica.project.dao.ItemDao" %>
+<%@ page import="bg.infologica.project.utils.StringUtils" %>
+<%@ page import="bg.infologica.project.dao.OrderItemsDao" %>
+<%@ page import="bg.infologica.project.dao.OrderDao" %>
+<%@ page import="bg.infologica.project.orm.*" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -81,17 +81,17 @@ else {%><%= Popup.header(response, "Добавяне на артикул към 
     <%= Html.hidden("order_item_id", orderItemId) %>
     <fieldset>
         <label>Категория артикул:</label>
-        <%= Html.select("category_id", (item!=null&&item.getItem()!=null&&item.getItem().getItemType()!=null&&item.getItem().getItemType().getCategory()!=null)?
-                item.getItem().getItemType().getCategory().getCategoryId():0, categories) %>
+        <%= Html.select("category_id", (item != null && item.getItem() != null && item.getItem().getItemType() != null && item.getItem().getItemType().getCategory() != null) ?
+                item.getItem().getItemType().getCategory().getCategoryId() : 0, categories) %>
         <label>Тип артикул:</label>
         <div id="types"><%= Html.select("type_id", "short") %></div>
         <label>Артикул:</label>
         <div id="items"><%= Html.select("type_id", "short") %></div>
 
         <label>Количество:</label>
-        <%= Html.inputFloat("quantity", item!=null?item.getQuantity():0, 8, 2) %>
+        <%= Html.inputFloat("quantity", item != null ? item.getQuantity() : 0, 8, 2) %>
         <label>Забележка:</label>
-        <%= Html.inputText("remark", item!=null?item.getRemark():"") %>
+        <%= Html.inputText("remark", item != null ? item.getRemark() : "") %>
         <br/>
     </fieldset>
     <%= Popup.buttonsSaveAndCancel() %>

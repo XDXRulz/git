@@ -1,12 +1,12 @@
 <%@ page import="bg.infologica.common.Debug" %>
 <%@ page import="bg.infologica.common.Tools" %>
 <%@ page import="bg.infologica.common.web.HtmlLink" %>
-<%@ page import="bg.infologica.water.core.Database" %>
-<%@ page import="bg.infologica.water.core.Settings" %>
-<%@ page import="bg.infologica.water.core.User" %>
+<%@ page import="bg.infologica.project.core.Database" %>
+<%@ page import="bg.infologica.project.core.Settings" %>
+<%@ page import="bg.infologica.project.core.User" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.SQLException" %>
-<%@ page import="bg.infologica.water.core.UserRole" %>
+<%@ page import="bg.infologica.project.core.UserRole" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     User user = User.create(session);
@@ -47,7 +47,7 @@
                     " u.role_id, r.role_name as role_name," +
                     " to_char(u.last_login,'DD.MM.YYYY HH24:MI') as last_login " +
                     "from users u LEFT JOIN user_roles r ON u.role_id=r.role_id " +
-                    "order by lower(u.names)");
+                    "order by u.role_id, lower(u.names)");
             if (rs != null && rs.next()) {
                 int save_role = -1;
                 rs.beforeFirst();
@@ -61,7 +61,7 @@
     <%
                     }
     %>
-    <tr class="top<%= (rs.getBoolean("active") ? " inactive" : "") %>">
+    <tr class="top<%= (!rs.getBoolean("active") ? " inactive" : "") %>">
         <td class="icon"><%= HtmlLink.getIconPopup(
                 "popup/password.jsp?id=" + rs.getInt("user_id"), "key", "Смяна на паролата") %></td>
         <td><%= Tools.fix(rs.getString("user_name")) %></td>

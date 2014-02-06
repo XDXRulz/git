@@ -1,9 +1,9 @@
 <%@ page import="bg.infologica.common.SmartMap" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
-<%@ page import="bg.infologica.water.core.Database" %>
-<%@ page import="bg.infologica.water.core.User" %>
-<%@ page import="bg.infologica.water.dao.UsersDao" %>
-<%@ page import="bg.infologica.water.core.UserRole" %>
+<%@ page import="bg.infologica.project.core.Database" %>
+<%@ page import="bg.infologica.project.core.User" %>
+<%@ page import="bg.infologica.project.dao.UsersDao" %>
+<%@ page import="bg.infologica.project.core.UserRole" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     User user = User.create(session);

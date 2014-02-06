@@ -3,12 +3,12 @@
 <%@ page import="bg.infologica.common.web.Html" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
 <%@ page import="bg.infologica.common.web.Popup" %>
-<%@ page import="bg.infologica.water.core.SessionMessages" %>
-<%@ page import="bg.infologica.water.core.User" %>
-<%@ page import="bg.infologica.water.core.BarCommons" %>
-<%@ page import="bg.infologica.water.core.UserRole" %>
-<%@ page import="bg.infologica.water.orm.Category" %>
-<%@ page import="bg.infologica.water.dao.CategoryDao" %>
+<%@ page import="bg.infologica.project.core.SessionMessages" %>
+<%@ page import="bg.infologica.project.core.User" %>
+<%@ page import="bg.infologica.project.core.BarCommons" %>
+<%@ page import="bg.infologica.project.core.UserRole" %>
+<%@ page import="bg.infologica.project.orm.Category" %>
+<%@ page import="bg.infologica.project.dao.CategoryDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     SmartMap get;

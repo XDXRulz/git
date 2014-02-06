@@ -1,18 +1,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="bg.infologica.common.SmartMap" %>
 <%@ page import="java.sql.ResultSet" %>
-<%@ page import="bg.infologica.water.orm.ItemType" %>
-<%@ page import="bg.infologica.water.dao.ItemTypeDao" %>
-<%@ page import="bg.infologica.water.orm.Category" %>
-<%@ page import="bg.infologica.water.orm.Item" %>
-<%@ page import="bg.infologica.water.dao.ItemDao" %>
+<%@ page import="bg.infologica.project.orm.ItemType" %>
+<%@ page import="bg.infologica.project.dao.ItemTypeDao" %>
+<%@ page import="bg.infologica.project.orm.Category" %>
+<%@ page import="bg.infologica.project.orm.Item" %>
+<%@ page import="bg.infologica.project.dao.ItemDao" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
-<%@ page import="bg.infologica.water.core.*" %>
+<%@ page import="bg.infologica.project.core.*" %>
 <%@ page import="bg.infologica.common.Tools" %>
 <%@ page import="bg.infologica.common.web.Popup" %>
 <%@ page import="bg.infologica.common.web.Html" %>
-<%@ page import="bg.infologica.water.dao.OrderDao" %>
-<%@ page import="bg.infologica.water.orm.OrderOrm" %>
+<%@ page import="bg.infologica.project.dao.OrderDao" %>
+<%@ page import="bg.infologica.project.orm.OrderOrm" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     SmartMap get;

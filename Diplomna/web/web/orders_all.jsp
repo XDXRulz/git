@@ -1,16 +1,16 @@
 <%@ page import="bg.infologica.common.Tools" %>
 <%@ page import="bg.infologica.common.web.HtmlLink" %>
-<%@ page import="bg.infologica.water.core.Settings" %>
-<%@ page import="bg.infologica.water.core.User" %>
+<%@ page import="bg.infologica.project.core.Settings" %>
+<%@ page import="bg.infologica.project.core.User" %>
 <%@ page import="java.util.List" %>
-<%@ page import="bg.infologica.water.core.UserRole" %>
-<%@ page import="bg.infologica.water.orm.Category" %>
-<%@ page import="bg.infologica.water.dao.CategoryDao" %>
-<%@ page import="bg.infologica.water.dao.OrderDao" %>
-<%@ page import="bg.infologica.water.orm.OrderOrm" %>
-<%@ page import="bg.infologica.water.core.OrderStatuses" %>
+<%@ page import="bg.infologica.project.core.UserRole" %>
+<%@ page import="bg.infologica.project.orm.Category" %>
+<%@ page import="bg.infologica.project.dao.CategoryDao" %>
+<%@ page import="bg.infologica.project.dao.OrderDao" %>
+<%@ page import="bg.infologica.project.orm.OrderOrm" %>
+<%@ page import="bg.infologica.project.core.OrderStatuses" %>
 <%@ page import="java.text.SimpleDateFormat" %>
-<%@ page import="bg.infologica.water.orm.OrderItemsOrm" %>
+<%@ page import="bg.infologica.project.orm.OrderItemsOrm" %>
 <%@ page import="java.util.Calendar" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%

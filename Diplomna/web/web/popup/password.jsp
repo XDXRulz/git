@@ -3,8 +3,8 @@
 <%@ page import="bg.infologica.common.web.Html" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
 <%@ page import="bg.infologica.common.web.Popup" %>
-<%@ page import="bg.infologica.water.core.*" %>
-<%@ page import="bg.infologica.water.dao.UsersDao" %>
+<%@ page import="bg.infologica.project.core.*" %>
+<%@ page import="bg.infologica.project.dao.UsersDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     SmartMap get;

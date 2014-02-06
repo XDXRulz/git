@@ -2,9 +2,9 @@
 <%@ page import="bg.infologica.common.web.Html" %>
 <%@ page import="bg.infologica.common.web.JavaScript" %>
 <%@ page import="bg.infologica.common.web.Popup" %>
-<%@ page import="bg.infologica.water.core.*" %>
-<%@ page import="bg.infologica.water.orm.UserOrm" %>
-<%@ page import="bg.infologica.water.dao.UsersDao" %>
+<%@ page import="bg.infologica.project.core.*" %>
+<%@ page import="bg.infologica.project.orm.UserOrm" %>
+<%@ page import="bg.infologica.project.dao.UsersDao" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
@@ -58,7 +58,7 @@
         <label>Роля:</label>
         <%= Html.select("role_id", data.getRoleId(), roles) %>
         <br/>
-        <%= Html.checkbox("status", data.getActive(), "Потребителското име е активно") %>
+        <%= Html.checkbox("active", data.getActive(), "Потребителското име е активно") %>
     </fieldset>
     <%= Popup.buttonsSaveAndCancel() %>
 </form>

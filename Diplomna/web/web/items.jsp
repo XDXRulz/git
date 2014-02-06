@@ -1,13 +1,13 @@
 <%@ page import="bg.infologica.common.Tools" %>
 <%@ page import="bg.infologica.common.web.HtmlLink" %>
-<%@ page import="bg.infologica.water.core.Settings" %>
-<%@ page import="bg.infologica.water.core.User" %>
+<%@ page import="bg.infologica.project.core.Settings" %>
+<%@ page import="bg.infologica.project.core.User" %>
 <%@ page import="java.util.List" %>
-<%@ page import="bg.infologica.water.core.UserRole" %>
-<%@ page import="bg.infologica.water.orm.ItemType" %>
-<%@ page import="bg.infologica.water.dao.ItemTypeDao" %>
-<%@ page import="bg.infologica.water.orm.Item" %>
-<%@ page import="bg.infologica.water.dao.ItemDao" %>
+<%@ page import="bg.infologica.project.core.UserRole" %>
+<%@ page import="bg.infologica.project.orm.ItemType" %>
+<%@ page import="bg.infologica.project.dao.ItemTypeDao" %>
+<%@ page import="bg.infologica.project.orm.Item" %>
+<%@ page import="bg.infologica.project.dao.ItemDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     User user = User.create(session);

@@ -15,7 +15,7 @@
 
     <filter>
         <filter-name>FilterEncoding</filter-name>
-        <filter-class>bg.infologica.water.core.FilterEncoding</filter-class>
+        <filter-class>bg.infologica.project.core.FilterEncoding</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>FilterEncoding</filter-name>

@@ -1,5 +1,5 @@
-<%@ page import="bg.infologica.water.core.Header" %>
-<%@ page import="bg.infologica.water.core.SessionMessages" %>
+<%@ page import="bg.infologica.project.core.Header" %>
+<%@ page import="bg.infologica.project.core.SessionMessages" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
 

@@ -1,4 +1,4 @@
-<%@ page import="bg.infologica.common.SmartMap" %><%@ page import="bg.infologica.water.core.cUrl" %><%@ page contentType="text/html;charset=UTF-8" language="java" %><%
+<%@ page import="bg.infologica.common.SmartMap" %><%@ page import="bg.infologica.project.core.cUrl" %><%@ page contentType="text/html;charset=UTF-8" language="java" %><%
     try
     {
         SmartMap get;

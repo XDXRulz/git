@@ -2,99 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4bec0a40-edd3-41a4-b6bf-892531324914" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/welcome-to-the-wine-bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/modules/checkForNewData.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/modules/itemTypes.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/modules/items.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/orders_b.jsp" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_footer.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_footer_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_footer_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_header_bts.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_header_bts_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_header_bts_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_header_top.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_header_top_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_header_top_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_page.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_page_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_page_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_subnav.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_subnav_over.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\bgrd_subnav_selected.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_al.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_ar.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_bga.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_l.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_la.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_r.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\cap_ra.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\header-3a.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\shadow_bot_white.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\css\iaos\shadow_top_white.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\arrow-up.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\background-left-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\background-left-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\caldown.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\calpopup.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\calup.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\dropdowncontent.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\e-mail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\flag-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\flag-en.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\frame-additional.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\frame.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\header-3.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\header-4.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\header-en.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-button-collapsed.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-button-expanded.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-folder-closed-b.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-folder-open-b.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-format.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-nodes-bg-utf-8.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-nodes-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu-nodes-en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\menu.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\print.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\frame\view-lake.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/water.war" afterPath="$PROJECT_DIR$/water.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/core/Database.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/core/Database.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/core/Header.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/core/Header.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/orm/Item.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/orm/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemTypeDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemTypeDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/OrderDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/OrderDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/OrderItemsDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/dao/OrderItemsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/core/OrderStatuses.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/core/OrderStatuses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/bg/infologica/water/core/SQL.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/water/core/SQL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/css/custom.css" afterPath="$PROJECT_DIR$/web/web/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/categories.jsp" afterPath="$PROJECT_DIR$/web/web/categories.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/category.jsp" afterPath="$PROJECT_DIR$/web/web/popup/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/modules/checkForNewData.jsp" afterPath="$PROJECT_DIR$/web/web/modules/checkForNewData.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/curl.jsp" afterPath="$PROJECT_DIR$/web/web/curl.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/modules/delete_user.jsp" afterPath="$PROJECT_DIR$/web/web/modules/delete_user.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/home.jsp" afterPath="$PROJECT_DIR$/web/web/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/index.jsp" afterPath="$PROJECT_DIR$/web/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/item.jsp" afterPath="$PROJECT_DIR$/web/web/popup/item.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/modules/itemTypes.jsp" afterPath="$PROJECT_DIR$/web/web/modules/itemTypes.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/item_type.jsp" afterPath="$PROJECT_DIR$/web/web/popup/item_type.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/item_types.jsp" afterPath="$PROJECT_DIR$/web/web/item_types.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/items.jsp" afterPath="$PROJECT_DIR$/web/web/items.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/web/web/js/jquery-1.9.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/modules/items.jsp" afterPath="$PROJECT_DIR$/web/web/modules/items.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/order_items.jsp" afterPath="$PROJECT_DIR$/web/web/popup/order_items.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/order_status_change.jsp" afterPath="$PROJECT_DIR$/web/web/popup/order_status_change.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/orders_all.jsp" afterPath="$PROJECT_DIR$/web/web/orders_all.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/css/style.css" afterPath="$PROJECT_DIR$/web/web/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/orders_b.jsp" afterPath="$PROJECT_DIR$/web/web/orders_b.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/password.jsp" afterPath="$PROJECT_DIR$/web/web/popup/password.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/popup/user.jsp" afterPath="$PROJECT_DIR$/web/web/popup/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/users.jsp" afterPath="$PROJECT_DIR$/web/web/users.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/xmod_header.jsp" afterPath="$PROJECT_DIR$/web/web/xmod_header.jsp" />
-      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\web\popup\order.jsp" afterPath="$PROJECT_DIR$/web/web/popup/order_status_change.jsp" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\BarCommons.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/BarCommons.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\Database.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/Database.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\FilterEncoding.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/FilterEncoding.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\Header.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/Header.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\OrderStatuses.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/OrderStatuses.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\PostgreSQL.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/PostgreSQL.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\SQL.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/SQL.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\SessionMessages.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/SessionMessages.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\Settings.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/Settings.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\User.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/User.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\core\UserRole.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/core/UserRole.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\dao\CategoryDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/dao/CategoryDao.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\dao\ItemDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/dao/ItemDao.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\dao\ItemTypeDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/dao/ItemTypeDao.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\dao\OrderDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/dao/OrderDao.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\dao\OrderItemsDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/dao/OrderItemsDao.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\dao\UsersDao.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/dao/UsersDao.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\helpers\DateHelper.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/helpers/DateHelper.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\orm\Category.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/orm/Category.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\orm\Item.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/orm/Item.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\orm\ItemType.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/orm/ItemType.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\orm\OrderItemsOrm.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/orm/OrderItemsOrm.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\orm\OrderOrm.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/orm/OrderOrm.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\orm\UserOrm.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/orm/UserOrm.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\utils\DateUtils.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/utils/DateUtils.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\utils\EmailUtils.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/utils/EmailUtils.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\utils\Hex.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/utils/Hex.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\utils\JsonSupport.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/utils/JsonSupport.java" />
+      <change type="MOVED" beforePath="D:\Software development\Projects\GITShit\git\Diplomna\web\src\bg\infologica\water\utils\StringUtils.java" afterPath="$PROJECT_DIR$/web/src/bg/infologica/project/utils/StringUtils.java" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,80 +125,7 @@
     <favorites_list name="water" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="orders_b.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/orders_b.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="30" selection-start="4294" selection-end="4297" vertical-scroll-proportion="-3.0384614" vertical-offset="1638" max-vertical-offset="2312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="93" selection-start="458" selection-end="458" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orders_all.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/web/orders_all.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="30" selection-start="5575" selection-end="5575" vertical-scroll-proportion="-0.19701493" vertical-offset="2225" max-vertical-offset="2754">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xmod_header.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/xmod_header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="641" selection-end="641" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/css/menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="19" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0" vertical-offset="1385" max-vertical-offset="3315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/items.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="55" selection-start="1695" selection-end="1695" vertical-scroll-proportion="-32.03846" vertical-offset="0" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/users.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="58" selection-start="584" selection-end="615" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1700">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -261,9 +148,6 @@
         <option value="$PROJECT_DIR$/web/web/config.jsp" />
         <option value="$PROJECT_DIR$/web/web/popup/password.jsp" />
         <option value="$PROJECT_DIR$/web/web/xmod_footer.jsp" />
-        <option value="$PROJECT_DIR$/web/web/users.jsp" />
-        <option value="$PROJECT_DIR$/web/web/popup/user.jsp" />
-        <option value="$PROJECT_DIR$/web/src/bg/infologica/water/dao/UsersDao.java" />
         <option value="$PROJECT_DIR$/web/src/bg/infologica/water/core/UserRole.java" />
         <option value="$PROJECT_DIR$/web/src/bg/infologica/water/orm/Categories.java" />
         <option value="$PROJECT_DIR$/web/web/popup/md_role.jsp" />
@@ -280,7 +164,6 @@
         <option value="$PROJECT_DIR$/web/src/bg/infologica/water/orm/Category.java" />
         <option value="$PROJECT_DIR$/web/web/popup/item_type.jsp" />
         <option value="$PROJECT_DIR$/web/web/item_types.jsp" />
-        <option value="$PROJECT_DIR$/web/src/bg/infologica/water/orm/UserOrm.java" />
         <option value="$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemTypeDao.java" />
         <option value="$PROJECT_DIR$/web/web/popup/order.jsp" />
         <option value="$PROJECT_DIR$/web/src/bg/infologica/water/core/OrderStatuses.java" />
@@ -308,6 +191,10 @@
         <option value="$PROJECT_DIR$/web/web/xmod_header.jsp" />
         <option value="$PROJECT_DIR$/web/web/orders_b.jsp" />
         <option value="$PROJECT_DIR$/web/web/orders_all.jsp" />
+        <option value="$PROJECT_DIR$/web/web/popup/user.jsp" />
+        <option value="$PROJECT_DIR$/web/src/bg/infologica/water/orm/UserOrm.java" />
+        <option value="$PROJECT_DIR$/web/web/users.jsp" />
+        <option value="$PROJECT_DIR$/web/src/bg/infologica/water/dao/UsersDao.java" />
       </list>
     </option>
   </component>
@@ -542,117 +429,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1218,7 +995,7 @@
       <workItem from="1391619108237" duration="3514000" />
       <workItem from="1391623102963" duration="3261000" />
       <workItem from="1391630544925" duration="3426000" />
-      <workItem from="1391638138057" duration="17345000" />
+      <workItem from="1391638138057" duration="18318000" />
     </task>
     <task id="LOCAL-00001">
       <created>1371460532100</created>
@@ -1444,11 +1221,15 @@
       <created>1391633858015</created>
       <updated>1391633858015</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="done with this shit at last&#10;">
+      <created>1391659419830</created>
+      <updated>1391659419830</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62617000" />
+    <option name="totallyTimeSpent" value="63590000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1472,14 +1253,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19186991" sideWeight="0.49651742" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19186991" sideWeight="0.49651742" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23867069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1489,14 +1270,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31544715" sideWeight="0.8383686" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31544715" sideWeight="0.8383686" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3125" sideWeight="0.23787528" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2905028" sideWeight="0.21294117" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940447" sideWeight="0.6910891" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23716012" sideWeight="0.3651877" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23716012" sideWeight="0.3651877" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42439026" sideWeight="0.9756368" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26904377" sideWeight="0.9988235" order="7" side_tool="false" content_ui="tabs" />
@@ -1561,7 +1342,8 @@
     <MESSAGE value="nomenklaturi ready&#10;placement ready&#10;WFS ready" />
     <MESSAGE value="&#10;" />
     <MESSAGE value="асдасдас&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="асдасдас&#10;" />
+    <MESSAGE value="done with this shit at last&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with this shit at last&#10;" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1605,43 +1387,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.31641287" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/BarCommons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/CategoryDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="41" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/orm/ItemType.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/orm/ItemType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="11" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1513">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2080#2081#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/orm/Category.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/orm/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="11" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="680">
           <folding />
@@ -1651,20 +1419,6 @@
     <entry file="file://$PROJECT_DIR$/web/web/item_types.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="66" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="457" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/PostgreSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="0" selection-start="12846" selection-end="12846" vertical-scroll-proportion="0.0" vertical-offset="6124" max-vertical-offset="16405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/orm/UserOrm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="71" selection-start="2833" selection-end="2833" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>
@@ -1686,7 +1440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemTypeDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/dao/ItemTypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="33" selection-start="2869" selection-end="2869" vertical-scroll-proportion="1.9507042" vertical-offset="405" max-vertical-offset="2108">
           <folding />
@@ -1700,23 +1454,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/popup/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="719" selection-end="747" vertical-scroll-proportion="0.15097691" vertical-offset="255" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib1/InfologicaCommon.jar!/bg/infologica/common/web/Popup.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="35" selection-start="994" selection-end="994" vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib1/InfologicaCommon.jar!/bg/infologica/common/web/Html.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="35" selection-start="5885" selection-end="5885" vertical-scroll-proportion="-7.32" vertical-offset="1364" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>
@@ -1742,21 +1482,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/Database.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/core/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="11" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/orm/OrderItemsOrm.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/orm/OrderItemsOrm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="11" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/orm/OrderOrm.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/orm/OrderOrm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="11" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1207">
           <folding />
@@ -1781,18 +1521,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="44" selection-start="3107" selection-end="3107" vertical-scroll-proportion="42.5" vertical-offset="2329" max-vertical-offset="3060">
           <folding>
-            <element signature="e#2118#2133#0" expanded="true" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;../modules/itemTypes.jsp&quot;...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;../modules/items.jsp&quot;...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1391653715692" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <element signature="e#2140#2155#0" expanded="true" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;../modules/itemTypes.jsp&quot;...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;../modules/items.jsp&quot;...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391660248077" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1817,14 +1557,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/orm/Item.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/orm/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="5" selection-start="1044" selection-end="1738" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/ItemDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/dao/ItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="48" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="1938">
           <folding />
@@ -1838,7 +1578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/OrderItemsDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/dao/OrderItemsDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="33" selection-start="3451" selection-end="3451" vertical-scroll-proportion="0.0" vertical-offset="1536" max-vertical-offset="2210">
           <folding>
@@ -1900,37 +1640,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/OrderStatuses.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/core/OrderStatuses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/SQL.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/core/SQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="46" selection-start="2686" selection-end="2707" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/dao/OrderDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/dao/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="33" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/Header.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/core/Header.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="129" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="2924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="58" selection-start="584" selection-end="615" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
@@ -1942,7 +1675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/water/core/User.java">
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/core/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="19" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0" vertical-offset="1385" max-vertical-offset="3315">
           <folding />
@@ -1979,7 +1712,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/orders_all.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="30" selection-start="5575" selection-end="5575" vertical-scroll-proportion="-0.19701493" vertical-offset="2225" max-vertical-offset="2754">
+        <state line="127" column="30" selection-start="5575" selection-end="5575" vertical-scroll-proportion="2.5384614" vertical-offset="2225" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib1/InfologicaCommon.jar!/bg/infologica/common/web/Html.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="1191" selection-end="1191" vertical-scroll-proportion="-3.48" vertical-offset="304" max-vertical-offset="2346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/popup/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="27" selection-start="884" selection-end="884" vertical-scroll-proportion="-4.5" vertical-offset="308" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/orm/UserOrm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="41" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="2346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="40" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-5.230769" vertical-offset="697" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/niuniu/status4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/niuniu/status3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/niuniu/status2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/niuniu/status1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/dao/UsersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="48" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-1.1462882" vertical-offset="1103" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/bg/infologica/project/core/PostgreSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="380" column="0" selection-start="12848" selection-end="12848" vertical-scroll-proportion="0.18995634" vertical-offset="6135" max-vertical-offset="16405">
           <folding />
         </state>
       </provider>
