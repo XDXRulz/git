@@ -7,6 +7,7 @@ import bg.infologica.water.orm.OrderItemsOrm;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -105,6 +106,28 @@ public class OrderItemsDao {
         finally {
             Database.RELEASE(db);
         }
+    }
+    public static boolean CheckForNew(Timestamp timestamp)
+    {
+        Database db = null;
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        try{
+            db = new Database();
+            stmt = db.prepareStatement(SQL.CHECK_FOR_NEW_ITEMS);
+            stmt.setTimestamp(1,timestamp);
+            rs = stmt.executeQuery();
+            return rs != null && rs.next() && rs.getInt(1) > 0;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+        finally {
+            Database.RELEASE(rs);
+            Database.RELEASE(stmt);
+            Database.RELEASE(db);
+        }
+        return false;
     }
 
 }

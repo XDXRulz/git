@@ -31,12 +31,23 @@ public class ItemDao {
     public static Item Load(int item_id)
     {
         Database db = null;
+        ResultSet rs = null;
         Item item = null;
         try{
             db = new Database();
-            item = new Item(item_id,db.fetchString(SQL.LOAD_ITEM(item_id)));
+            rs = db.select(SQL.LOAD_ITEM(item_id));
+            if (rs != null && rs.next()) {
+                item = new Item(rs.getInt("item_id"), rs.getString("item_name"),rs.getDouble("price"),
+                        new ItemType(rs.getInt("type_id"),rs.getString("type_name"),
+                                new Category(rs.getInt("category_id"),rs.getString("category_name"))));
+            }
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
         }
         finally {
+            Database.RELEASE(rs);
             Database.RELEASE(db);
         }
         return item;

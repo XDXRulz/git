@@ -27,6 +27,7 @@
         <th>Категория</th>
         <th>Тип продукт</th>
         <th>Наименование</th>
+        <th>Цена</th>
         <% if (admin) { %>
         <th class="icon"></th>
         <th class="icon"></th>
@@ -46,6 +47,7 @@
         <td><%= Tools.fix(item.getItemType().getCategory().getCategoryName()) %></td>
         <td><%= Tools.fix(item.getItemType().getTypeName()) %></td>
         <td><%= Tools.fix(item.getItemName()) %></td>
+        <td><%= Tools.fixFloat(item.getPrice(), 8, 2, "лв") %></td>
         <% if (admin) { %>
         <td class="icon"><%= HtmlLink.getIconPopup("popup/item.jsp?action=edit&id=" + item.getItemId(), "edit", "Корекция") %></td>
         <td class="icon"><%= HtmlLink.getIconPopup("popup/item.jsp?action=delete&id=" +  item.getItemId(), "delete", "Изтриване") %></td>

@@ -33,7 +33,7 @@ public class ItemTypeDao {
         ItemType itemType = null;
         try{
             db = new Database();
-            itemType = new ItemType(type_id,db.fetchString(SQL.LOAD_ITEMTYPES(type_id)));
+            itemType = new ItemType(type_id,db.fetchString(SQL.LOAD_ITEMTYPE(type_id)));
         }
         finally {
             Database.RELEASE(db);
@@ -80,6 +80,30 @@ public class ItemTypeDao {
         try{
             db = new Database();
             rs = db.select(SQL.LOAD_ITEMTYPES);
+            while (rs != null && rs.next()) {
+                itemTypes.add(new ItemType(rs.getInt("type_id"), rs.getString("type_name"),
+                        new Category(rs.getInt("category_id"),rs.getString("category_name"))));
+            }
+        }
+        catch (SQLException|NullPointerException e)
+        {
+            e.printStackTrace();
+            return null;
+        }
+        finally {
+            Database.RELEASE(rs);
+            Database.RELEASE(db);
+        }
+        return itemTypes;
+    }
+    public static List<ItemType> LoadAll(int categoryId)
+    {
+        Database db = null;
+        ResultSet rs = null;
+        List<ItemType> itemTypes = new ArrayList<>();
+        try{
+            db = new Database();
+            rs = db.select(SQL.LOAD_ITEMTYPES(categoryId));
             while (rs != null && rs.next()) {
                 itemTypes.add(new ItemType(rs.getInt("type_id"), rs.getString("type_name"),
                         new Category(rs.getInt("category_id"),rs.getString("category_name"))));

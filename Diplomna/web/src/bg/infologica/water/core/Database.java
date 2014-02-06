@@ -21,7 +21,7 @@ public class Database extends PostgreSQL {
      * Конструктор на класа.
      */
     public Database() {
-        System.out.print(postgresqlHost+ postgresqlUser+ postgresqlPassword);
+//        System.out.print(postgresqlHost+ postgresqlUser+ postgresqlPassword);
         connect(postgresqlHost, postgresqlUser, postgresqlPassword);
     }
 

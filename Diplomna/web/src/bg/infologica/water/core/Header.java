@@ -17,10 +17,10 @@ public final class Header {
 
     // константи, описващи индексите на отделните табулатори
     private static final int TAB_LOGIN = 0;
-    private static final int TAB_HOME = 4;
-    private static final int TAB_ADMIN = 1;
-    private static final int TAB_BARTENDER = 2;
-    private static final int TAB_WAITRESS = 3;
+    private static final int TAB_HOME = 1;
+    private static final int TAB_ADMIN = 2;
+    private static final int TAB_BARTENDER = 3;
+    private static final int TAB_WAITRESS = 4;
 
     private HeaderTabs tabs;
     private User user;
@@ -41,11 +41,12 @@ public final class Header {
         tabs.add("Вход в системата", "index.jsp");
         tabs.add("Начална страница", User.valid(user)?"home.jsp": "index.jsp");
         tabs.add("Администриране", User.valid(user) && user.hasRole(UserRole.ADMIN)?"users.jsp": "index.jsp");
-        tabs.add("Бармани", User.valid(user) &&( user.hasRole(UserRole.ADMIN)||user.hasRole(UserRole.BARTENDER)) ? "bartenders_home.jsp" : "index.jsp");
-        tabs.add("Сервитьорки", User.valid(user) && (user.hasRole(UserRole.ADMIN)||user.hasRole(UserRole.WAITRESS) )? "waitreses_home.jsp" : "index.jsp");
+        tabs.add("Бармани", User.valid(user) &&( user.hasRole(UserRole.ADMIN)||user.hasRole(UserRole.BARTENDER)) ? "orders_b.jsp" : "index.jsp");
+        tabs.add("Сервитьорки", User.valid(user) && (user.hasRole(UserRole.ADMIN)||user.hasRole(UserRole.WAITRESS) )? "orders_all.jsp" : "index.jsp");
 
         // определяне на видимите табулатори
         tabs.setVisible(TAB_LOGIN, !User.valid(user));
+        tabs.setVisible(TAB_HOME, User.valid(user));
         tabs.setVisible(TAB_ADMIN, User.valid(user) && user.hasRole(UserRole.ADMIN));
         tabs.setVisible(TAB_BARTENDER, User.valid(user)  && (user.hasRole(UserRole.ADMIN)||user.hasRole(UserRole.BARTENDER)));
         tabs.setVisible(TAB_WAITRESS, User.valid(user) && (user.hasRole(UserRole.ADMIN)||user.hasRole(UserRole.WAITRESS)));
@@ -53,18 +54,15 @@ public final class Header {
         // списък на файловете
         HeaderFiles files = new HeaderFiles();
 
-        files.add("home.jsp", TAB_LOGIN);
+        files.add("home.jsp", TAB_HOME,1);
         files.add("index.jsp", TAB_LOGIN);
 
-        files.add("users.jsp", TAB_ADMIN);
-        files.add("items.jsp", TAB_ADMIN);
-        files.add("categories.jsp", TAB_ADMIN);
-        files.add("item_types.jsp", TAB_ADMIN);
-        files.add("orders_b.jsp", TAB_BARTENDER);
-        files.add("view_order_b.jsp", TAB_BARTENDER);
-        files.add("orders_w.jsp", TAB_BARTENDER);
-        files.add("view_order_w.jsp", TAB_WAITRESS);
-        files.add("add_order.jsp", TAB_WAITRESS);
+        files.add("users.jsp", TAB_ADMIN,1);
+        files.add("items.jsp", TAB_ADMIN,2);
+        files.add("item_types.jsp", TAB_ADMIN,3);
+        files.add("categories.jsp", TAB_ADMIN,4);
+        files.add("orders_all.jsp", TAB_WAITRESS,1);
+        files.add("orders_b.jsp", TAB_BARTENDER,1);
 
 
         // определяне индексите на активния табулатор и активния бутон
@@ -122,20 +120,20 @@ public final class Header {
         StringBuilder res = new StringBuilder();
         res.append("<div id='nav' class='tabs'><ul class='l1 nav'>");
         switch (selected_tab) {
+            case TAB_HOME:
+                res.append(makeButton("home.jsp", "Начало", selected_button == 1));
+                break;
             case TAB_ADMIN:
                 res.append(makeButton(UserRole.ADMIN, "users.jsp", "Потребители", selected_button == 1));
                 res.append(makeButton(UserRole.ADMIN, "items.jsp", "Артиклули", selected_button == 2));
-                res.append(makeButton(UserRole.ADMIN, "item_types.jsp", "Типова артикули", selected_button == 3));
+                res.append(makeButton(UserRole.ADMIN, "item_types.jsp", "Типове артикули", selected_button == 3));
                 res.append(makeButton(UserRole.ADMIN, "categories.jsp", "Категории артикули", selected_button == 4));
                 break;
             case TAB_WAITRESS:
-                res.append(makeButton(UserRole.WAITRESS, "orders_w.jsp", "ГИС", selected_button == 1));
-                res.append(makeButton(UserRole.WAITRESS, "view_order_w.jsp", "ГИС", selected_button == 2));
-                res.append(makeButton(UserRole.WAITRESS, "add_order.jsp", "ГИС", selected_button == 3));
+                res.append(makeButton(UserRole.WAITRESS, "orders_all.jsp", "Поръчки", selected_button == 1));
                 break;
             case TAB_BARTENDER:
-                res.append(makeButton(UserRole.BARTENDER, "orders_b.jsp", "Метаданни", selected_button == 1));
-                res.append(makeButton(UserRole.BARTENDER, "view_order_b.jsp", "Метаданни", selected_button == 1));
+                res.append(makeButton(UserRole.BARTENDER, "orders_b.jsp", "Поръчки", selected_button == 1));
                 break;
         }
         res.append("</ul></div>");
@@ -165,7 +163,7 @@ public final class Header {
      * @return Генерираният HTML код.
      */
     private String makeButton(int role, String address, String caption, boolean selected) {
-        if (user != null && user.hasRole(role)) {
+        if (user != null && (user.hasRole(role)||user.hasRole(UserRole.ADMIN))) {
             return makeButton(address, caption, selected).toString();
         }
         return "";

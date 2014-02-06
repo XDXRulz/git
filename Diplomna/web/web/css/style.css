@@ -436,3 +436,39 @@ img.warn { vertical-align: middle; border: none; margin: 0; padding: 0; cursor: 
 .meta-3 {padding-left: 4.5em;}
 .meta-4 {padding-left: 6em;}
 .meta-5 {padding-left: 7.5em;}
+
+.status_1{
+    background-color: #eeec92;
+    min-width: 150px;
+}
+.status_1:hover{
+    background-color: #ebee51!important;
+}
+.status_2{
+    background-color: #eecf9e;
+    min-width: 150px;
+}
+.status_2:hover{
+    background-color: #eeb869!important;
+}
+.status_3{
+    background-color: #c4dcee;
+    min-width: 150px;
+}
+.status_3:hover{
+    background-color: #7ab3ee!important;
+}
+.status_4{
+    background-color: #aeee9a;
+    min-width: 150px;
+}
+.status_4:hover{
+    background-color: #84ee4d!important;
+}
+.status_99{
+    background-color: #ee8372;
+    min-width: 150px;
+}
+.status_99:hover{
+    background-color: #ee4845 !important;
+}

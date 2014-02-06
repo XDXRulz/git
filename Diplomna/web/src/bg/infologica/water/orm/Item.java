@@ -31,7 +31,7 @@ public class Item {
     }
     public Item(SmartMap get) {
         setItemId(get.getInt("item_id"));
-        setPrice(get.getDouble("prise"));
+        setPrice(get.getDouble("price"));
         setItemType(new ItemType(get.getInt("type_id")));
 
     }
@@ -51,12 +51,13 @@ public class Item {
     public Item(Database db, int item_id) {
         ResultSet rs = null;
         try {
-            rs = db.select("select * from items where item_id=" + item_id);
+            rs = db.select(SQL.LOAD_ITEM(item_id) );
             if (rs != null && rs.next()) {
                 setItemId(rs.getInt("item_id"));
                 setItemName(rs.getString("item_name"));
                 setPrice(rs.getDouble("price"));
-                setItemType(new ItemType(rs.getInt("type_id")));
+                setItemType(new ItemType(rs.getInt("type_id"),rs.getString("type_name"),
+                        new Category(rs.getInt("category_id"),rs.getString("category_name"))));
             }
         }
         catch (SQLException e) {

@@ -9,5 +9,5 @@
     }
 %>
 <jsp:include page="<%= Settings.HEADER_FILE %>"/>
-
+<img src="images/welcome-to-the-wine-bar.png" alt="WELCOME" style="margin: 0 auto; width: 100%; height: auto"/>
 <jsp:include page="<%= Settings.FOOTER_FILE %>"/>

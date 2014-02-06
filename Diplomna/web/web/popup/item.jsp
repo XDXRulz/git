@@ -34,7 +34,8 @@
         return;
     }
     Item item=null;
-    ResultSet itemtypes = null;
+    ResultSet categories = null;
+    ResultSet types = null;
     Database db = null;
     try {
         db = new Database();
@@ -43,7 +44,7 @@
 
             item = new Item(db, get.getInt("id"));
         }
-        itemtypes = db.select(SQL.LOAD_ITEMTYPES);
+        categories = db.select(SQL.LOAD_CATEGORIES);
 
         int id = get.getInt("id");
         String action= get.getString("action");
@@ -87,15 +88,50 @@
         <label>Наименование:</label>
         <%= Html.inputText("item_name", (item != null) ? item.getItemName() : "") %>
         <label>Цена:</label>
-        <%= Html.inputText("price", (item != null) ? Tools.fixFloat(item.getPrice(), 8,2): "") %>
-
+        <%= Html.inputFloat("price", (item != null) ? item.getPrice():0, 8, 2) %>
+        <label>Категория артикул:</label>
+        <%= Html.select("category_id", (item != null && item.getItemType() != null && item.getItemType().getCategory() != null)
+                ? item.getItemType().getCategory().getCategoryId() : 0, categories) %>
         <label>Тип артикул:</label>
-        <%= Html.select("type_id", (item != null && item.getItemType() != null) ? item.getItemType().getTypeId() : 0, itemtypes) %>
-
+        <div id="types"><%= Html.select("type_id","short") %></div>
         <br/>
     </fieldset>
     <%= Popup.buttonsSaveAndCancel() %>
 </form>
+<script type="text/javascript">
+    function generateTypes(category,type)
+    {
+        console.log(category);
+        var request = $.ajax({
+            url: "../modules/itemTypes.jsp",
+            type: "POST",
+            data: { category_id : category,type_id:type },
+            dataType: "html"
+        });
+
+        request.done(function( msg ) {
+            console.log( msg );
+            $( "#types" ).html( msg );
+        });
+
+        request.fail(function( jqXHR, textStatus ) {
+            console.log( "Request failed: " + textStatus );
+        });
+    }
+    function init()
+    {
+        console.log('init');
+        var category = $("#category_id");
+        category.bind('change',function(){
+          console.log('changing');
+           generateTypes($("#category_id").val(),0)
+        });
+        generateTypes(category.val(),<%= (item != null && item.getItemType() != null )?item.getItemType().getTypeId():0%>);
+
+    }
+    setTimeout(init,500);
+
+</script>
 <%= Popup.footer() %>
 <%
         }
@@ -104,7 +140,7 @@
         e.printStackTrace();
     }
     finally {
-        Database.RELEASE(itemtypes);
+        Database.RELEASE(categories);
         Database.RELEASE(db);
     }
 %>
